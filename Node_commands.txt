@@ -1,0 +1,29 @@
+--Create migrations:
+
+1. npm i --save sequelize
+
+2. npm i -g sequelize-cli
+
+3. npm i --save mysql2
+
+4. install mysql
+
+5. sequelize init - Create folders models, migrations and seeders
+
+6. Create src folder and src->database->connection.js, src->models->Tweet.js, src->bootstrap.js
+
+7. Create database in mysql - start mysql -u root -p
+
+8. change database name in config.json
+
+9. Create Tweet.js under src->models
+
+10. sequelize migration:create --name create_tweets_table - create file under migrations folder
+
+11. sequelize db:migrate
+
+12. sequelize db:migrate:undo
+
+13. use required connection.js and bootstrap.js in app.js
+
+

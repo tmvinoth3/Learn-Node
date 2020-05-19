@@ -1,0 +1,19 @@
+1. npi i -g @adonisjs/cli
+2.adonis new <proj-name>
+3.adonis serve --dev
+4.create layouts folder in resource->views
+5.create main.edge with sections
+6.change welcome.edge to index.edge in start->route
+7.change db_connection and database name in .env
+8.connect sql using mysql -u root -p
+9.adonis install mysql or npm i mysql
+10. adonis migration:run
+11. adonis make:migration jobs and select create table.
+12.change job schema file under migrations
+13. step 10
+14.adonis make:model job to create model under app->Models
+15.adonis make:controller JobController
+16.change routes.js add get
+17.npm i @adonis/validator
+18. adonis make:validator CreateUser
+19. signup fields with csrffield
